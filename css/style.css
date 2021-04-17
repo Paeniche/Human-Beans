@@ -2,6 +2,22 @@ body {
   background-color: #ecf0f1;
 }
 
+#cafe-name-small {
+  font-size: 55px;
+}
+
+#our-creed {
+  font-size: 20px;
+}
+
 .menu-label {
   font-size: 20px;
+}
+
+.cafe-name {
+  font-size: 4vw;
+}
+
+.beeg-title {
+  font-size: 50px;
 }
