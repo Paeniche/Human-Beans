@@ -2,12 +2,13 @@ body {
   background-color: #ecf0f1;
 }
 
-#cafe-name-small {
-  font-size: 55px;
-}
-
 #our-creed {
   font-size: 20px;
+}
+
+#landing-img {
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
 }
 
 .menu-label {
@@ -15,7 +16,19 @@ body {
 }
 
 .cafe-name {
-  font-size: 4vw;
+  font-size: 80px;
+  /* background-color: hsla(13, 3%, 74%, 0.82);
+  border-radius: 4px; */
+}
+
+.cafe-name-small {
+  font-size: 55px;
+}
+
+.cafe-name,
+.cafe-name-small {
+  background-color: hsla(13, 3%, 74%, 0.82);
+  border-radius: 4px;
 }
 
 .beeg-title {
