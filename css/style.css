@@ -1,8 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap");
+
+@font-face {
+  font-family: "SigmarOne";
+  src: url(../assets/fonts/SigmarOne-Regular.ttf) format("truetype");
+}
+
 body {
-  background-color: #ecf0f1;
+  /* background-color: #ecf0f1; */
+  /* background: rgb(159, 159, 159);
+  background: linear-gradient(
+    43deg,
+    rgba(159, 159, 159, 1) 0%,
+    rgba(227, 227, 227, 1) 35%,
+    rgba(200, 200, 200, 1) 100%
+  ); */
+  background: rgb(33, 35, 55);
+  background: linear-gradient(
+    270deg,
+    rgba(33, 35, 55, 1) 0%,
+    rgba(34, 34, 37, 1) 100%
+  );
 }
 
 #our-creed {
+}
+
+#our-creed-text {
   font-size: 20px;
 }
 
@@ -11,12 +34,28 @@ body {
   -webkit-filter: blur(4px);
 }
 
+#title-bean {
+  width: 55px;
+}
+
+#beans {
+  display: block;
+}
+
+#menu {
+  font-family: "Oxygen", sans-serif;
+  padding-bottom: 10px;
+}
+
 .menu-label {
   font-size: 20px;
 }
 
 .cafe-name {
   font-size: 80px;
+  font-family: "SigmarOne", sans-serif;
+  color: #026030;
+  text-shadow: 1px 1px 2px black;
   /* background-color: hsla(13, 3%, 74%, 0.82);
   border-radius: 4px; */
 }
@@ -25,12 +64,18 @@ body {
   font-size: 55px;
 }
 
-.cafe-name,
-.cafe-name-small {
-  background-color: hsla(13, 3%, 74%, 0.82);
-  border-radius: 4px;
-}
-
 .beeg-title {
   font-size: 50px;
+}
+
+.page-element {
+  border-radius: 5px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background: rgb(240, 240, 240);
+  background: linear-gradient(
+    270deg,
+    rgba(240, 240, 240, 1) 0%,
+    rgba(230, 230, 230, 1) 100%
+  );
 }
