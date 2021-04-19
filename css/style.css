@@ -6,23 +6,12 @@
 }
 
 body {
-  /* background-color: #ecf0f1; */
-  /* background: rgb(159, 159, 159);
-  background: linear-gradient(
-    43deg,
-    rgba(159, 159, 159, 1) 0%,
-    rgba(227, 227, 227, 1) 35%,
-    rgba(200, 200, 200, 1) 100%
-  ); */
   background: rgb(33, 35, 55);
   background: linear-gradient(
     270deg,
     rgba(33, 35, 55, 1) 0%,
     rgba(34, 34, 37, 1) 100%
   );
-}
-
-#our-creed {
 }
 
 #our-creed-text {
