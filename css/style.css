@@ -5,6 +5,10 @@
   src: url(../assets/fonts/SigmarOne-Regular.ttf) format("truetype");
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: rgb(33, 35, 55);
   background: linear-gradient(
